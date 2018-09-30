@@ -6,7 +6,11 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.remoting.httpinvoker.HttpComponentsHttpInvokerRequestExecutor;
 import org.springframework.remoting.jaxws.JaxWsPortProxyFactoryBean;
 
+import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
 import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**
@@ -25,6 +29,8 @@ public class WsConfig {
         URL wsdlDocumentUrl = new URL("http://127.0.0.1:8083/AccountServiceImpl?WSDL");
         factoryBean.setWsdlDocumentUrl(wsdlDocumentUrl);
         factoryBean.setServiceInterface(AccountService.class);
+        factoryBean.setUsername("admin");
+        factoryBean.setPassword("sasa");
         return factoryBean;
     }
 }
