@@ -1,23 +1,43 @@
-# Compiled class file
-*.class
+/target/
+!.mvn/wrapper/maven-wrapper.jar
 
-# Log file
-*.log
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# BlueJ files
-*.ctxt
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/spring-amqp-rpc/amqp-consumer/.mvn/wrapper/maven-wrapper.jar
+/spring-amqp-rpc/amqp-consumer/.mvn/wrapper/*.jar
+/spring-amqp-rpc/amqp-consumer/.mvn/wrapper
+/spring-amqp-rpc/amqp-provider/.mvn/wrapper
+/spring-hessian-rpc/hessian-consumer/.mvn/wrapper
+/spring-http-rpc/http-consumer/.mvn/wrapper
+/spring-hessian-rpc/hessian-provider/.mvn/wrapper
+/spring-http-rpc/http-provider/.mvn/wrapper/maven-wrapper.jar
+/spring-http-rpc/http-provider/.mvn/wrapper
+/spring-ws-rpc/ws-provider/.mvn/wrapper/*.jar
+/spring-ws-rpc/ws-provider/.mvn/wrapper/*.properties
+/spring-ws-rpc/ws-provider/.mvn/wrapper
+/spring-rpc-api/target
+/spring-ws-rpc/ws-consumer/.mvn/wrapper
+/spring-rmi-rpc/rmi-provider/.mvn/wrapper
+/spring-rmi-rpc/rmi-consumer/.mvn/wrapper
+/spring-jms-rpc/jms-provider/.mvn/wrapper
+/spring-jms-rpc/jms-consumer/.mvn/wrapper
